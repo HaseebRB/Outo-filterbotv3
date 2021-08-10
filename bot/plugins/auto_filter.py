@@ -134,7 +134,7 @@ async def auto_filter(bot, update):
             chat_id=update.chat.id,
             text="തങ്ങൾ അടിച്ചിരിക്കുന്നത് തെറ്റായ speling ആണ് ദയവായി correct ആയി അടിക്കുക എന്നാൽ മാത്രമേ നിങ്ങൾ ഉദെഷിക്കുന്ന മൂവി ലഭിക്കുകയുള്ളു",
         reply_markup=reply_markup
-)
+        )
     
 
     if len(results) == 0: # double check
