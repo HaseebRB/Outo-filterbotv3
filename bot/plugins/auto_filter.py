@@ -126,14 +126,14 @@ async def auto_filter(bot, update):
             )
         
     else:
-    buttons [[
-        InlineKeyboardButton('✨UPDATE CHANNEL✨', url="https//t.me/M_STER_TECH")
+        buttons [[
+            InlineKeyboardButton('✨UPDATE CHANNEL✨', url="https//t.me/M_STER_TECH")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
-            await bot.send_message(
+        await bot.send_message(
             chat_id=update.chat.id,
             text="തങ്ങൾ അടിച്ചിരിക്കുന്നത് തെറ്റായ speling ആണ് ദയവായി correct ആയി അടിക്കുക എന്നാൽ മാത്രമേ നിങ്ങൾ ഉദെഷിക്കുന്ന മൂവി ലഭിക്കുകയുള്ളു",
-        reply_markup=reply_markup
+            reply_markup=reply_markup
         )
     
 
