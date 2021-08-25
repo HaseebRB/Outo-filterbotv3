@@ -7,16 +7,16 @@
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/AlbertEinsteinTG",
-    "repository": "https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2",
-    "success_url": "https://telegram.dog/CrazyBotsz",
+    "website": "https://github.com/HaseebRB",
+    "repository": "https://github.com/HaseebRB/Outo-filterbotv3",
+    "success_url": "https://telegram.dog/Royalbotz",
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org or @UseTGXBot",
             "value": ""
         },
         "API_HASH": {
-            "description": "Your API Hash From my.telegram.org or @UseTGXBot",
+            "description": "Your API Hash From my.telegram.org ",
             "value": ""
         },
         "BOT_TOKEN": {
