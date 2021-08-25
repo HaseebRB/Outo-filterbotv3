@@ -56,7 +56,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔍CHANNEL', url="https://t.me/Royalbotz"
                                 )
                         ]
                     ]
@@ -75,7 +75,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔍CHANNEL', url="https://t.me/Royalbotz"
                                 )
                         ]
                     ]
@@ -94,7 +94,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔍CHANNEL', url="https://t.me/Royalbotz"
                                 )
                         ]
                     ]
@@ -107,12 +107,12 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('🔍CHANNEL', url='https://t.me/Royalbotz'),
+        InlineKeyboardButton('Source Code', url ='https://github.com/HaseebRB/Outo-filterbotv3')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('🗯 SUPPORT', url='https://t.me/tgbotschat')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('💡HELP', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
