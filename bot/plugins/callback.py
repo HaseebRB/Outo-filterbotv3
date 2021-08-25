@@ -1639,12 +1639,12 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+            InlineKeyboardButton('🔍CHANNEL', url='https://t.me/Royalbotz'),
+            InlineKeyboardButton('Source Code', url ='https://github.com/HaseebRB/Outo-filterbotv3')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('🗯 SUPPORT', url='https://t.me/tgbotschat')
         ],[
-            InlineKeyboardButton('Help ⚙', callback_data="help")
+            InlineKeyboardButton('💡HELP', callback_data="help")
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1659,10 +1659,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('About 🚩', callback_data='about')
+            InlineKeyboardButton('Ⓜ️ MENU', callback_data='start'),
+            InlineKeyboardButton('📕 ABOUT', callback_data='about')
         ],[
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('🗄 DEV', url='https://t.me/haseeb_tg')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1677,8 +1677,8 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('Ⓜ️ MENU', callback_data='start'),
+            InlineKeyboardButton('🎥 STATUS', url='https://t.me/m4status')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
