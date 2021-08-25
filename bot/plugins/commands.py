@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
+# (c) @AlbertEinsteinTg , @Royalbotz
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
@@ -23,7 +23,7 @@ async def start(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="**Join My Updates Channel to use ME 😎 🤭**",
+                text="**Join My Updates Channel to use ME 😎 🤗**",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
@@ -130,8 +130,8 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('Ⓜ️ENU', callback_data='start'),
+        InlineKeyboardButton('📕 ABOUT', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
